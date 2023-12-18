@@ -1,0 +1,13 @@
+# venv files
+new/
+
+# Python compiled files
+*.pyc
+
+# build files
+build/
+dist/
+storage.egg-info/
+
+# IDE files
+.idea/
