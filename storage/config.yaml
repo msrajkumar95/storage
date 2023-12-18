@@ -1,0 +1,36 @@
+images:
+  - jpg
+  - png
+  - svg
+  - webp
+
+media:
+  - mp3
+  - mp4
+  - mpeg4
+  - wmv
+  - 3gp
+  - webm
+
+documents:
+  - doc
+  - docx
+  - csv
+  - pdf
+
+targets:
+  aws:
+    files:
+      - images
+      - media
+    s3:
+      bucket: sacumenbucket
+      access_key: 
+      secret_key: 
+
+  gcs:
+    files:
+      - documents
+    cloud:
+      project: 
+      bucket: sacumenbucket
